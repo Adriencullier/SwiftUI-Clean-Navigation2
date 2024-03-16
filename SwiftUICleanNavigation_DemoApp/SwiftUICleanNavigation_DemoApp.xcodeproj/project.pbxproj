@@ -14,6 +14,7 @@
 		031D83A12BA4A14D006E907C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031D83A02BA4A14D006E907C /* HomeViewModel.swift */; };
 		031D83A42BA4A246006E907C /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031D83A32BA4A246006E907C /* ModalView.swift */; };
 		031D83A72BA4A2BF006E907C /* PushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031D83A62BA4A2BF006E907C /* PushView.swift */; };
+		031D83AC2BA5A288006E907C /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = 031D83AB2BA5A288006E907C /* Navigation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031D83AC2BA5A288006E907C /* Navigation in Frameworks */,
 				031D83992BA4699E006E907C /* Navigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +151,7 @@
 			name = SwiftUICleanNavigation_DemoApp;
 			packageProductDependencies = (
 				031D83982BA4699E006E907C /* Navigation */,
+				031D83AB2BA5A288006E907C /* Navigation */,
 			);
 			productName = SwiftUICleanNavigation_DemoApp;
 			productReference = 031D83732BA43DC0006E907C /* SwiftUICleanNavigation_DemoApp.app */;
@@ -179,7 +182,7 @@
 			);
 			mainGroup = 031D836A2BA43DC0006E907C;
 			packageReferences = (
-				031D83972BA4699E006E907C /* XCLocalSwiftPackageReference "Navigation" */,
+				031D83AA2BA5A288006E907C /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = 031D83742BA43DC0006E907C /* Products */;
 			projectDirPath = "";
@@ -418,14 +421,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		031D83972BA4699E006E907C /* XCLocalSwiftPackageReference "Navigation" */ = {
+		031D83AA2BA5A288006E907C /* XCLocalSwiftPackageReference ".." */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = Navigation;
+			relativePath = ..;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		031D83982BA4699E006E907C /* Navigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Navigation;
+		};
+		031D83AB2BA5A288006E907C /* Navigation */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Navigation;
 		};
